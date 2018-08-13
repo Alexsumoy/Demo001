@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 1100px;
+}
+header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 0;
+}
+h1 {
+  padding-top: 0.5em;
+  font-size: 4em;
+  font-family: roboto;
+  color: #8904B1;
+  text-shadow: 3px 3px red;
+}
+main {
+  margin-top: -3em;
+  padding: 0;
+  height: 1100px;
+}
+div {
+  width: 100%;
+}
+footer {
+  padding: 0.5em;
+  color: #74DF00;
+  background-color: black;
+  text-align: center;
+  font-size: 2em;
+  font-family: roboto;
+}
+#imtit {
+  width: 12%;
+}
+/*Animation on title image*/
+@keyframes grow {
+  from {width: 12%;}
+  to {width: 17%;}
+  10% {transform: rotate(60deg);}
+}
+#imtit:hover {
+  animation-name: grow;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function:
+}
+#kaos {
+  background-color: #610B0B;
+  box-shadow: 6px 6px red;
+  color: #4C0B5F;
+  width: 5em;
+  font-family: roboto;
+  font-size: 4em;
+  padding: 0.3em;
+  text-shadow: 3px 3px red;
+  opacity: 0.9;
+}
+#kaos:hover {
+  opacity: 1;
+  background-color: #0B2F3A;
+  color: #8904B1;
+}
+#img1 {
+  background-image: url(../src/001.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1100px;
+}
+#img2 {
+  background-image: url(../src/002.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1100px;
+}
+#img3 {
+  background-image: url(../src/003.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1100px;
+}
